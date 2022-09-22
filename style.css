@@ -52,6 +52,25 @@ body .main__portfolio .main__portfolio__project {
   align-items: center;
   margin: 20px;
 }
+body .main__portfolio .main__portfolio__project .main_eachportfolio {
+  margin: 20px;
+}
+body .main__portfolio .main__portfolio__project .main_eachportfolio .button__react {
+  color: #e8c2ca;
+  background-color: #4a4e69;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 3px;
+  border-style: hidden;
+}
+body .main__portfolio .main__portfolio__project .main_eachportfolio .button__javascript {
+  color: #4a4e69;
+  background-color: #e8c2ca;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 3px;
+  border-style: hidden;
+}
 
 body {
   background-color: #f2e9e4;

@@ -63,6 +63,25 @@ body {
       flex-wrap: wrap;
       align-items: center;
       margin: 20px;
+      .main_eachportfolio {
+        margin: 20px;
+        .button__react {
+          color: $color-quinary;
+          background-color: $color-quaternary;
+          border-radius: 5px;
+          text-decoration: none;
+          padding: 3px;
+          border-style: hidden;
+        }
+        .button__javascript {
+          color: $color-quaternary;
+          background-color: $color-quinary;
+          border-radius: 5px;
+          text-decoration: none;
+          padding: 3px;
+          border-style: hidden;
+        }
+      }
     }
   }
 }
