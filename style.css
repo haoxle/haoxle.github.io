@@ -26,9 +26,15 @@ body main .main_jsd {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #9a8c98;
+  margin: 20px 20px 20px 20px;
+  border-radius: 20px;
 }
 body main .main_jsd h1 {
   margin: 80px 0px 20px 50px;
+}
+body main .main_jsd p {
+  margin: 10px 0px 20px 50px;
 }
 
 body {
