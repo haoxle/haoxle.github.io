@@ -27,7 +27,7 @@ body main .main__jsd {
   flex-direction: column;
   justify-content: center;
   background-color: #9a8c98;
-  margin: 20px 20px 20px 20px;
+  margin: 40px 20px 20px 20px;
   border-radius: 20px;
   width: 90vw;
   height: 40vh;
@@ -43,7 +43,7 @@ body .main__portfolio--title {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 10vh;
+  margin: 80px 0 10px 0;
 }
 body .main__portfolio .main__portfolio__project {
   display: flex;
@@ -71,13 +71,26 @@ body .main__portfolio .main__portfolio__project .main_eachportfolio .button__jav
   padding: 3px;
   border-style: hidden;
 }
+body .main__aboutHao .aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 35px 0;
+}
+body .main__aboutHao .aboutme__content {
+  display: flex;
+  justify-content: space-around;
+}
+body .main__aboutHao .aboutme__content #haopic {
+  max-width: 150px;
+  max-height: 150px;
+  margin: 0 20px 20px 20px;
+}
+body .main__aboutHao .aboutme__content--p {
+  margin: 0 20px 20px 20px;
+}
 
 body {
   background-color: #f2e9e4;
   color: #4a4e69;
 }
-
-#haopic {
-  max-width: 200px;
-  max-height: 200px;
-}/*# sourceMappingURL=style.css.map */
