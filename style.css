@@ -13,6 +13,9 @@
 
 a {
   color: #4a4e69;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 a:link,
@@ -23,7 +26,8 @@ a:active {
 }
 
 body {
-  color: white;
+  background-color: #f2e9e4;
+  color: #4a4e69;
 }
 
 #haopic {
