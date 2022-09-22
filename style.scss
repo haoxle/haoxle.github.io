@@ -104,6 +104,21 @@ body {
       }
     }
   }
+  .main__experience {
+    margin: 0 15px 0px 15px;
+    &--heading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 40px 0 35px 0;
+    }
+    &--jobs {
+      display: flex;
+      justify-content: space-between;
+      font-size: 15px;
+      font-weight: lighter;
+    }
+  }
 }
 
 body {

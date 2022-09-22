@@ -89,6 +89,21 @@ body .main__aboutHao .aboutme__content #haopic {
 body .main__aboutHao .aboutme__content--p {
   margin: 0 20px 20px 20px;
 }
+body .main__experience {
+  margin: 0 15px 0px 15px;
+}
+body .main__experience--heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 35px 0;
+}
+body .main__experience--jobs {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: lighter;
+}
 
 body {
   background-color: #f2e9e4;
