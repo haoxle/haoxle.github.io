@@ -1,4 +1,38 @@
+$color-primary: #d5bdaf;
+$color-secondary: #d6ccc2;
+$color-tertiary: #9a8c98;
+$color-quaternary: #4a4e69;
+$color-quinary: #e8c2ca;
+$color-senary: #f2e9e4;
+$color-gray: #adb5bd;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: $color-primary;
+  padding: 20px;
+}
+
+a {
+  color: $color-quaternary;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
 body {
-  background-image: url(/images/NeptuneJWST.jpeg);
+  //   background-image: url(/images/NeptuneJWST.jpeg);
   color: white;
+}
+
+#haopic {
+  max-width: 200px;
+  max-height: 200px;
 }
