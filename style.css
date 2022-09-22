@@ -3,26 +3,32 @@
   padding: 0;
 }
 
-.header {
+body .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: #d5bdaf;
   padding: 20px;
 }
-
-a {
+body .header a:link,
+body .header a:visited,
+body .header a:hover,
+body .header a:active {
+  text-decoration: none;
+}
+body .header a {
   color: #4a4e69;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   font-weight: 600;
 }
-
-a:link,
-a:visited,
-a:hover,
-a:active {
-  text-decoration: none;
+body main .main_jsd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body main .main_jsd h1 {
+  margin: 80px 0px 20px 50px;
 }
 
 body {
@@ -33,4 +39,4 @@ body {
 #haopic {
   max-width: 200px;
   max-height: 200px;
-}/*# sourceMappingURL=style.css.map */
+}
