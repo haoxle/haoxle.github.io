@@ -47,8 +47,10 @@ body .main__portfolio--title {
 }
 body .main__portfolio .main__portfolio__project {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
+  align-items: center;
+  margin: 20px;
 }
 
 body {
@@ -59,4 +61,4 @@ body {
 #haopic {
   max-width: 200px;
   max-height: 200px;
-}
+}/*# sourceMappingURL=style.css.map */
