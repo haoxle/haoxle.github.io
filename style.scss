@@ -119,6 +119,16 @@ body {
       font-weight: lighter;
     }
   }
+  .main__hobbies {
+    width: 90vw;
+    height: 40vh;
+    .main__hobbies__title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 40px 0 35px 0;
+    }
+  }
 }
 
 body {
