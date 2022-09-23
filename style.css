@@ -114,8 +114,12 @@ body .main__hobbies .main__hobbies__title {
   align-items: center;
   margin: 40px 0 35px 0;
 }
+body .main__hobbies .hobbies__images {
+  width: 200px;
+  height: 200px;
+}
 
 body {
   background-color: #f2e9e4;
   color: #4a4e69;
-}
+}/*# sourceMappingURL=style.css.map */
