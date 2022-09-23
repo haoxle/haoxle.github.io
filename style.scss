@@ -17,23 +17,20 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      background-color: $color-tertiary;
-      margin: 40px 20px 20px 20px;
-      border-radius: 20px;
-      width: 92vw;
+      width: 100vw;
       height: 70vh;
 
       h1 {
-        margin: 80px 0px 20px 50px;
+        margin: 80px 0px 30px 50px;
         font-family: $secondary-font;
         font-size: 70px;
-        font-weight: 500;
+        font-weight: 700;
       }
       p {
-        margin: 10px 0px 20px 50px;
-        font-size: 30px;
-        font-weight: 300;
-        text-align: start;
+        margin: 10px 50px 20px 50px;
+        font-size: 25px;
+        font-weight: lighter;
+        text-align: justify;
       }
     }
   }
@@ -41,7 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 72vh;
+    height: auto;
     background-color: $color-tertiary;
     margin: 70px 0 0 0;
     #underline {
@@ -111,12 +108,12 @@ body {
       #haopic {
         max-width: 150px;
         max-height: 150px;
-        margin: 0 20px 20px 40px;
+        margin: 20px 10px 20px 30px;
         font-size: 30px;
         border-radius: 100%;
       }
       &--p {
-        margin: 10px 50px 20px 20px;
+        margin: 10px 20px 20px 10px;
         font-size: 20px;
       }
     }
@@ -135,7 +132,7 @@ body {
     #underline__experience {
       border-bottom: 2px solid $color-quaternary;
       width: 20vh;
-      margin: 0px 0 60px 34%;
+      margin: 0px 0 60px 28%;
     }
 
     &--jobs {
@@ -165,7 +162,7 @@ body {
     #underline {
       border-bottom: 2px solid $color-quaternary;
       width: 15vh;
-      margin: 0px 0 60px 38%;
+      margin: 0px 0 60px 33%;
     }
     &--cluster {
       display: flex;
@@ -200,8 +197,9 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: $color-senary;
+  background-color: $color-quaternary;
   #header__name {
+    color: $color-quinary;
     font-family: $secondary-font;
     font-size: 80px;
     font-weight: 900;

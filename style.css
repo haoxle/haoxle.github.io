@@ -24,29 +24,26 @@ body main .main__jsd {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #9a8c98;
-  margin: 40px 20px 20px 20px;
-  border-radius: 20px;
-  width: 92vw;
+  width: 100vw;
   height: 70vh;
 }
 body main .main__jsd h1 {
-  margin: 80px 0px 20px 50px;
+  margin: 80px 0px 30px 50px;
   font-family: "willstand";
   font-size: 70px;
-  font-weight: 500;
+  font-weight: 700;
 }
 body main .main__jsd p {
-  margin: 10px 0px 20px 50px;
-  font-size: 30px;
-  font-weight: 300;
-  text-align: start;
+  margin: 10px 50px 20px 50px;
+  font-size: 25px;
+  font-weight: lighter;
+  text-align: justify;
 }
 body .main__portfolio {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 72vh;
+  height: auto;
   background-color: #9a8c98;
   margin: 70px 0 0 0;
 }
@@ -117,12 +114,12 @@ body .main__aboutHao .aboutme__content {
 body .main__aboutHao .aboutme__content #haopic {
   max-width: 150px;
   max-height: 150px;
-  margin: 0 20px 20px 40px;
+  margin: 20px 10px 20px 30px;
   font-size: 30px;
   border-radius: 100%;
 }
 body .main__aboutHao .aboutme__content--p {
-  margin: 10px 50px 20px 20px;
+  margin: 10px 20px 20px 10px;
   font-size: 20px;
 }
 body .main__experience--heading {
@@ -138,7 +135,7 @@ body .main__experience--heading {
 body .main__experience #underline__experience {
   border-bottom: 2px solid #4a4e69;
   width: 20vh;
-  margin: 0px 0 60px 34%;
+  margin: 0px 0 60px 28%;
 }
 body .main__experience--jobs {
   display: flex;
@@ -165,7 +162,7 @@ body .main__hobbies--title {
 body .main__hobbies #underline {
   border-bottom: 2px solid #4a4e69;
   width: 15vh;
-  margin: 0px 0 60px 38%;
+  margin: 0px 0 60px 33%;
 }
 body .main__hobbies--cluster {
   display: flex;
@@ -197,10 +194,11 @@ body .main__hobbies--cluster .hobbies__images {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #f2e9e4;
+  background-color: #4a4e69;
   padding: 40px;
 }
 .header #header__name {
+  color: #e8c2ca;
   font-family: "willstand";
   font-size: 80px;
   font-weight: 900;
