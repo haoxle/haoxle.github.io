@@ -9,9 +9,9 @@
 }
 
 body {
-  background-color: $color-senary;
-  color: $color-quaternary;
-
+  // background-color: $color-senary;
+  color: $color-secondary;
+  background-color: $color-primary;
   main {
     .main__jsd {
       display: flex;
@@ -42,8 +42,8 @@ body {
     background-color: $color-tertiary;
     margin: 70px 0 0 0;
     #underline {
-      border-bottom: 2px solid $color-quinary;
-      width: 20vh;
+      border-bottom: 2px solid $color-primary;
+      width: 15vh;
       margin: 0;
     }
     &--title {
@@ -61,26 +61,28 @@ body {
       flex-wrap: wrap;
       align-items: center;
       margin: 20px;
-      text-decoration: underline;
+
       .blankbox {
         display: flex;
-        background-color: #e8c2ca;
+        background-color: $color-primary;
         width: 150px;
         height: 150px;
       }
 
       .main_eachportfolio {
-        margin: 20px;
+        margin: 10px;
+
         .button__react {
-          color: $color-quinary;
+          color: $color-secondary;
           background-color: $color-quaternary;
           border-radius: 5px;
           text-decoration: none;
           padding: 3px;
           border-style: hidden;
+          margin-top: 5px;
         }
         .button__javascript {
-          color: $color-quaternary;
+          color: $color-secondary;
           background-color: $color-quinary;
           border-radius: 5px;
           text-decoration: none;
@@ -130,7 +132,7 @@ body {
       font-variant: small-caps;
     }
     #underline__experience {
-      border-bottom: 2px solid $color-quaternary;
+      border-bottom: 2px solid $color-tertiary;
       width: 20vh;
       margin: 0px 0 60px 28%;
     }
@@ -145,7 +147,7 @@ body {
       border: 2px solid $color-quaternary;
       border-top: 1px solid $color-primary;
       border-bottom: 1px solid $color-primary;
-      color: #e8c2ca;
+      color: $color-secondary;
     }
   }
   .main__hobbies {
@@ -160,7 +162,7 @@ body {
       font-variant: small-caps;
     }
     #underline {
-      border-bottom: 2px solid $color-quaternary;
+      border-bottom: 2px solid $color-tertiary;
       width: 15vh;
       margin: 0px 0 60px 33%;
     }
@@ -186,8 +188,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: $color-quaternary;
-  color: $color-quinary;
+  background-color: $color-tertiary;
+  color: $color-secondary;
   margin: 15vh 0 0 0;
   padding: 30px;
   font-size: 25px;
@@ -197,14 +199,15 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: $color-quaternary;
   #header__name {
-    color: $color-quinary;
+    color: $color-secondary;
     font-family: $secondary-font;
     font-size: 80px;
     font-weight: 900;
+    padding: 40px;
+    margin-left: 10px;
   }
-  padding: 40px;
+
   a:link,
   a:visited,
   a:hover,
@@ -212,9 +215,13 @@ body {
     text-decoration: none;
   }
   a {
-    color: $color-quaternary;
+    color: $color-secondary;
     font-family: $secondary-font;
     font-size: 0;
     font-weight: 200;
+  }
+  #navlinks {
+    padding: 30px;
+    margin-top: 20px;
   }
 }

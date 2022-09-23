@@ -17,8 +17,8 @@
 }
 
 body {
-  background-color: #f2e9e4;
-  color: #4a4e69;
+  color: #d9d9d9;
+  background-color: #0a1128;
 }
 body main .main__jsd {
   display: flex;
@@ -44,12 +44,12 @@ body .main__portfolio {
   flex-direction: column;
   align-items: center;
   height: auto;
-  background-color: #9a8c98;
+  background-color: #248277;
   margin: 70px 0 0 0;
 }
 body .main__portfolio #underline {
-  border-bottom: 2px solid #e8c2ca;
-  width: 20vh;
+  border-bottom: 2px solid #0a1128;
+  width: 15vh;
   margin: 0;
 }
 body .main__portfolio--title {
@@ -67,28 +67,28 @@ body .main__portfolio .main__portfolio__project {
   flex-wrap: wrap;
   align-items: center;
   margin: 20px;
-  text-decoration: underline;
 }
 body .main__portfolio .main__portfolio__project .blankbox {
   display: flex;
-  background-color: #e8c2ca;
+  background-color: #0a1128;
   width: 150px;
   height: 150px;
 }
 body .main__portfolio .main__portfolio__project .main_eachportfolio {
-  margin: 20px;
+  margin: 10px;
 }
 body .main__portfolio .main__portfolio__project .main_eachportfolio .button__react {
-  color: #e8c2ca;
-  background-color: #4a4e69;
+  color: #d9d9d9;
+  background-color: #2a6f97;
   border-radius: 5px;
   text-decoration: none;
   padding: 3px;
   border-style: hidden;
+  margin-top: 5px;
 }
 body .main__portfolio .main__portfolio__project .main_eachportfolio .button__javascript {
-  color: #4a4e69;
-  background-color: #e8c2ca;
+  color: #d9d9d9;
+  background-color: #22577a;
   border-radius: 5px;
   text-decoration: none;
   padding: 3px;
@@ -133,21 +133,21 @@ body .main__experience--heading {
   font-variant: small-caps;
 }
 body .main__experience #underline__experience {
-  border-bottom: 2px solid #4a4e69;
+  border-bottom: 2px solid #248277;
   width: 20vh;
   margin: 0px 0 60px 28%;
 }
 body .main__experience--jobs {
   display: flex;
   justify-content: space-between;
-  background-color: #4a4e69;
+  background-color: #2a6f97;
   font-size: 20px;
   font-weight: lighter;
   padding: 20px;
-  border: 2px solid #4a4e69;
-  border-top: 1px solid #d5bdaf;
-  border-bottom: 1px solid #d5bdaf;
-  color: #e8c2ca;
+  border: 2px solid #2a6f97;
+  border-top: 1px solid #0a1128;
+  border-bottom: 1px solid #0a1128;
+  color: #d9d9d9;
 }
 body .main__hobbies--title {
   display: flex;
@@ -160,7 +160,7 @@ body .main__hobbies--title {
   font-variant: small-caps;
 }
 body .main__hobbies #underline {
-  border-bottom: 2px solid #4a4e69;
+  border-bottom: 2px solid #248277;
   width: 15vh;
   margin: 0px 0 60px 33%;
 }
@@ -176,15 +176,15 @@ body .main__hobbies--cluster .hobbies__images {
   height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
-  border: 1px solid #4a4e69;
+  border: 1px solid #2a6f97;
 }
 
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #4a4e69;
-  color: #e8c2ca;
+  background-color: #248277;
+  color: #d9d9d9;
   margin: 15vh 0 0 0;
   padding: 30px;
   font-size: 25px;
@@ -194,14 +194,14 @@ body .main__hobbies--cluster .hobbies__images {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #4a4e69;
-  padding: 40px;
 }
 .header #header__name {
-  color: #e8c2ca;
+  color: #d9d9d9;
   font-family: "willstand";
   font-size: 80px;
   font-weight: 900;
+  padding: 40px;
+  margin-left: 10px;
 }
 .header a:link,
 .header a:visited,
@@ -210,8 +210,12 @@ body .main__hobbies--cluster .hobbies__images {
   text-decoration: none;
 }
 .header a {
-  color: #4a4e69;
+  color: #d9d9d9;
   font-family: "willstand";
   font-size: 0;
   font-weight: 200;
+}
+.header #navlinks {
+  padding: 30px;
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */
