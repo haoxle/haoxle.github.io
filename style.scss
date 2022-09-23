@@ -189,16 +189,18 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: $color-primary;
-  margin: 40px 0 0 0;
-  padding: 20px;
+  background-color: $color-quaternary;
+  color: $color-quinary;
+  margin: 15vh 0 0 0;
+  padding: 30px;
+  font-size: 25px;
 }
 
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: $color-primary;
+  background-color: $color-senary;
   #header__name {
     font-family: $secondary-font;
     font-size: 80px;

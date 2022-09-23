@@ -186,16 +186,18 @@ body .main__hobbies--cluster .hobbies__images {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #d5bdaf;
-  margin: 40px 0 0 0;
-  padding: 20px;
+  background-color: #4a4e69;
+  color: #e8c2ca;
+  margin: 15vh 0 0 0;
+  padding: 30px;
+  font-size: 25px;
 }
 
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #d5bdaf;
+  background-color: #f2e9e4;
   padding: 40px;
 }
 .header #header__name {
