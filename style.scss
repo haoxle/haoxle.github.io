@@ -133,8 +133,8 @@ body {
     }
     #underline__experience {
       border-bottom: 2px solid $color-tertiary;
-      width: 20vh;
-      margin: 0px 0 60px 28%;
+      width: 35%;
+      margin: 0px 0 20% 32%;
     }
 
     &--jobs {
@@ -163,8 +163,8 @@ body {
     }
     #underline {
       border-bottom: 2px solid $color-tertiary;
-      width: 15vh;
-      margin: 0px 0 60px 33%;
+      width: 30%;
+      margin: 0px 0 20% 35%;
     }
     &--cluster {
       display: flex;
@@ -211,7 +211,7 @@ body {
     font-family: $secondary-font;
     font-size: 80px;
     font-weight: 900;
-    padding: 40px;
+    padding: 10%;
     margin-left: 10px;
   }
 
@@ -228,7 +228,7 @@ body {
     font-weight: 200;
   }
   #navlinks {
-    padding: 30px;
-    margin-top: 20px;
+    margin: 0 10vw 0 0;
+    padding: 50% 100% 0 0;
   }
 }

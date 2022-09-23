@@ -134,8 +134,8 @@ body .main__experience--heading {
 }
 body .main__experience #underline__experience {
   border-bottom: 2px solid #248277;
-  width: 20vh;
-  margin: 0px 0 60px 28%;
+  width: 35%;
+  margin: 0px 0 20% 32%;
 }
 body .main__experience--jobs {
   display: flex;
@@ -161,8 +161,8 @@ body .main__hobbies--title {
 }
 body .main__hobbies #underline {
   border-bottom: 2px solid #248277;
-  width: 15vh;
-  margin: 0px 0 60px 33%;
+  width: 30%;
+  margin: 0px 0 20% 35%;
 }
 body .main__hobbies--cluster {
   display: flex;
@@ -207,7 +207,7 @@ body .main__hobbies--cluster .hobbies__images {
   font-family: "willstand";
   font-size: 80px;
   font-weight: 900;
-  padding: 40px;
+  padding: 10%;
   margin-left: 10px;
 }
 .header a:link,
@@ -223,6 +223,6 @@ body .main__hobbies--cluster .hobbies__images {
   font-weight: 200;
 }
 .header #navlinks {
-  padding: 30px;
-  margin-top: 20px;
+  margin: 0 10vw 0 0;
+  padding: 50% 100% 0 0;
 }/*# sourceMappingURL=style.css.map */
