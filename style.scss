@@ -156,11 +156,16 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 80px 0 35px 0;
+      margin: 80px 0 0 0;
       font-size: 50px;
       font-weight: 500;
       font-family: $secondary-font;
       font-variant: small-caps;
+    }
+    #underline {
+      border-bottom: 2px solid $color-quaternary;
+      width: 15vh;
+      margin: 0px 0 60px 38%;
     }
     &--cluster {
       display: flex;
