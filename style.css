@@ -45,16 +45,24 @@ body main .main__jsd p {
 body .main__portfolio {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 65vh;
   background-color: #9a8c98;
+  margin: 70px 0 0 0;
+}
+body .main__portfolio #underline {
+  border-bottom: 2px solid #e8c2ca;
+  width: 20vh;
+  margin: 0;
 }
 body .main__portfolio--title {
   display: flex;
   align-items: center;
-  margin: 40px 0 10px 0;
+  margin: 40px 0 0 0;
   font-family: "willstand";
   font-size: 50px;
   font-weight: 500px;
+  font-variant: small-caps;
 }
 body .main__portfolio .main__portfolio__project {
   display: flex;
@@ -62,6 +70,7 @@ body .main__portfolio .main__portfolio__project {
   flex-wrap: wrap;
   align-items: center;
   margin: 20px;
+  text-decoration: underline;
 }
 body .main__portfolio .main__portfolio__project .blankbox {
   display: flex;
@@ -88,12 +97,18 @@ body .main__portfolio .main__portfolio__project .main_eachportfolio .button__jav
   padding: 3px;
   border-style: hidden;
 }
+body .main__aboutHao {
+  margin: 50px 0 50px;
+}
 body .main__aboutHao .aboutme {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px 0 35px 0;
+  margin: 40px 0 45px 0;
   font-family: "willstand";
+  font-size: 50px;
+  font-weight: 500;
+  font-variant: small-caps;
 }
 body .main__aboutHao .aboutme__content {
   display: flex;
@@ -102,11 +117,13 @@ body .main__aboutHao .aboutme__content {
 body .main__aboutHao .aboutme__content #haopic {
   max-width: 150px;
   max-height: 150px;
-  margin: 0 20px 20px 20px;
+  margin: 0 20px 20px 40px;
   font-size: 30px;
+  border-radius: 100%;
 }
 body .main__aboutHao .aboutme__content--p {
-  margin: 0 20px 20px 20px;
+  margin: 10px 50px 20px 20px;
+  font-size: 20px;
 }
 body .main__experience--heading {
   display: flex;

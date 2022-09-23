@@ -40,16 +40,23 @@ body {
   .main__portfolio {
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 65vh;
     background-color: $color-tertiary;
-
+    margin: 70px 0 0 0;
+    #underline {
+      border-bottom: 2px solid $color-quinary;
+      width: 20vh;
+      margin: 0;
+    }
     &--title {
       display: flex;
       align-items: center;
-      margin: 40px 0 10px 0;
+      margin: 40px 0 0 0;
       font-family: $secondary-font;
       font-size: 50px;
       font-weight: 500px;
+      font-variant: small-caps;
     }
     .main__portfolio__project {
       display: flex;
@@ -57,6 +64,7 @@ body {
       flex-wrap: wrap;
       align-items: center;
       margin: 20px;
+      text-decoration: underline;
       .blankbox {
         display: flex;
         background-color: #e8c2ca;
@@ -86,12 +94,16 @@ body {
     }
   }
   .main__aboutHao {
+    margin: 50px 0 50px;
     .aboutme {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 40px 0 35px 0;
+      margin: 40px 0 45px 0;
       font-family: $secondary-font;
+      font-size: 50px;
+      font-weight: 500;
+      font-variant: small-caps;
     }
     .aboutme__content {
       display: flex;
@@ -99,11 +111,13 @@ body {
       #haopic {
         max-width: 150px;
         max-height: 150px;
-        margin: 0 20px 20px 20px;
+        margin: 0 20px 20px 40px;
         font-size: 30px;
+        border-radius: 100%;
       }
       &--p {
-        margin: 0 20px 20px 20px;
+        margin: 10px 50px 20px 20px;
+        font-size: 20px;
       }
     }
   }
