@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: arial;
   padding: 0;
 }
 
@@ -74,9 +75,6 @@ body .main__aboutHao .aboutme__content #haopic {
 body .main__aboutHao .aboutme__content--p {
   margin: 0 20px 20px 20px;
 }
-body .main__experience {
-  margin: 0 15px 0px 15px;
-}
 body .main__experience--heading {
   display: flex;
   justify-content: center;
@@ -86,8 +84,14 @@ body .main__experience--heading {
 body .main__experience--jobs {
   display: flex;
   justify-content: space-between;
+  background-color: #4a4e69;
   font-size: 15px;
   font-weight: lighter;
+  padding: 15px;
+  border: 2px solid #4a4e69;
+  border-top: 1px solid #d5bdaf;
+  border-bottom: 1px solid #d5bdaf;
+  color: #e8c2ca;
 }
 body .main__hobbies--title {
   display: flex;
