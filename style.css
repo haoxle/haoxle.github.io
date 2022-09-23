@@ -1,8 +1,4 @@
 @font-face {
-  font-family: "RabbitOaks";
-  src: url(Fonts/Rabbit-Oaks-3976492/Rabbit\ Oaks.ttf) format("truetype");
-}
-@font-face {
   font-family: "chelsy";
   src: url(Fonts/Chelsy.ttf) format("truetype");
 }
@@ -45,6 +41,7 @@ body .main__portfolio {
   align-items: center;
   height: auto;
   background-color: #248277;
+  width: 100vw;
   margin: 70px 0 0 0;
 }
 body .main__portfolio #underline {
@@ -73,9 +70,10 @@ body .main__portfolio .main__portfolio__project .blankbox {
   background-color: #0a1128;
   width: 150px;
   height: 150px;
+  margin-bottom: 10px;
 }
 body .main__portfolio .main__portfolio__project .main_eachportfolio {
-  margin: 10px;
+  margin: 10px 0 0 10px;
 }
 body .main__portfolio .main__portfolio__project .main_eachportfolio .button__react {
   color: #d9d9d9;
