@@ -142,7 +142,10 @@ body {
   flex-direction: row;
   justify-content: space-between;
   background-color: $color-primary;
-
+  #header__name {
+    font-family: $secondary-font;
+    font-size: 40px;
+  }
   padding: 20px;
   a:link,
   a:visited,
@@ -152,7 +155,7 @@ body {
   }
   a {
     color: $color-quaternary;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $secondary-font;
     font-size: 20px;
     font-weight: 600;
   }
