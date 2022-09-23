@@ -42,12 +42,19 @@ body main .main__jsd p {
   font-weight: 300;
   text-align: start;
 }
+body .main__portfolio {
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  background-color: #9a8c98;
+}
 body .main__portfolio--title {
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 100vw;
-  margin: 80px 0 10px 0;
+  margin: 40px 0 10px 0;
+  font-family: "willstand";
+  font-size: 50px;
+  font-weight: 500px;
 }
 body .main__portfolio .main__portfolio__project {
   display: flex;
@@ -55,6 +62,12 @@ body .main__portfolio .main__portfolio__project {
   flex-wrap: wrap;
   align-items: center;
   margin: 20px;
+}
+body .main__portfolio .main__portfolio__project .blankbox {
+  display: flex;
+  background-color: #e8c2ca;
+  width: 150px;
+  height: 150px;
 }
 body .main__portfolio .main__portfolio__project .main_eachportfolio {
   margin: 20px;

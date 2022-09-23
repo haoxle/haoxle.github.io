@@ -38,12 +38,18 @@ body {
     }
   }
   .main__portfolio {
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    background-color: $color-tertiary;
+
     &--title {
       display: flex;
-      justify-content: center;
       align-items: center;
-      width: 100vw;
-      margin: 80px 0 10px 0;
+      margin: 40px 0 10px 0;
+      font-family: $secondary-font;
+      font-size: 50px;
+      font-weight: 500px;
     }
     .main__portfolio__project {
       display: flex;
@@ -51,6 +57,13 @@ body {
       flex-wrap: wrap;
       align-items: center;
       margin: 20px;
+      .blankbox {
+        display: flex;
+        background-color: #e8c2ca;
+        width: 150px;
+        height: 150px;
+      }
+
       .main_eachportfolio {
         margin: 20px;
         .button__react {
