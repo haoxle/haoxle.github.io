@@ -189,6 +189,13 @@ body .main__hobbies--cluster .hobbies__images {
   padding: 30px;
   font-size: 25px;
 }
+.footer a:link,
+.footer a:visited,
+.footer a:hover,
+.footer a:active {
+  text-decoration: none;
+  color: #d9d9d9;
+}
 
 .header {
   display: flex;

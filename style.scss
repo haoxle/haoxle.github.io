@@ -193,6 +193,13 @@ body {
   margin: 15vh 0 0 0;
   padding: 30px;
   font-size: 25px;
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: none;
+    color: $color-secondary;
+  }
 }
 
 .header {
