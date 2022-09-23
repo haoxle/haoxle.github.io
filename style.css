@@ -3,8 +3,8 @@
   src: url(Fonts/Rabbit-Oaks-3976492/Rabbit\ Oaks.ttf) format("truetype");
 }
 @font-face {
-  font-family: "RabbitOaksSans";
-  src: url(Fonts/Rabbit-Oaks-3976492/Rabbit\ Oaks\ Sans.ttf) format("truetype");
+  font-family: "chelsy";
+  src: url(Fonts/Chelsy.ttf) format("truetype");
 }
 @font-face {
   font-family: "willstand";
@@ -12,7 +12,7 @@
 }
 * {
   margin: 0;
-  font-family: "RabbitOaks";
+  font-family: "chelsy";
   padding: 0;
 }
 
@@ -28,17 +28,19 @@ body main .main__jsd {
   margin: 40px 20px 20px 20px;
   border-radius: 20px;
   width: 92vw;
-  height: 80vh;
+  height: 70vh;
 }
 body main .main__jsd h1 {
   margin: 80px 0px 20px 50px;
   font-family: "willstand";
-  font-size: 80px;
+  font-size: 70px;
+  font-weight: 500;
 }
 body main .main__jsd p {
   margin: 10px 0px 20px 50px;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 300;
+  text-align: start;
 }
 body .main__portfolio--title {
   display: flex;
@@ -88,6 +90,7 @@ body .main__aboutHao .aboutme__content #haopic {
   max-width: 150px;
   max-height: 150px;
   margin: 0 20px 20px 20px;
+  font-size: 30px;
 }
 body .main__aboutHao .aboutme__content--p {
   margin: 0 20px 20px 20px;
@@ -149,7 +152,8 @@ body .main__hobbies--cluster .hobbies__images {
 }
 .header #header__name {
   font-family: "willstand";
-  font-size: 60px;
+  font-size: 80px;
+  font-weight: 900;
 }
 .header a:link,
 .header a:visited,
@@ -160,6 +164,6 @@ body .main__hobbies--cluster .hobbies__images {
 .header a {
   color: #4a4e69;
   font-family: "willstand";
-  font-size: 50px;
+  font-size: 0;
   font-weight: 200;
 }/*# sourceMappingURL=style.css.map */

@@ -4,12 +4,13 @@
 }
 
 @font-face {
-  font-family: "RabbitOaksSans";
-  src: url(Fonts/Rabbit-Oaks-3976492/Rabbit\ Oaks\ Sans.ttf) format("truetype");
+  font-family: "chelsy";
+  src: url(Fonts/Chelsy.ttf) format("truetype");
 }
 @font-face {
   font-family: "willstand";
   src: url(Fonts/Willstand\ Sans.ttf) format("truetype");
 }
-$primary-font: "RabbitOaks";
+
+$primary-font: "chelsy";
 $secondary-font: "willstand";
