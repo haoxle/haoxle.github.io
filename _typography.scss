@@ -1,2 +1,15 @@
-$primary-font: arial;
-$secondary-font: tahoma;
+@font-face {
+  font-family: "RabbitOaks";
+  src: url(Fonts/Rabbit-Oaks-3976492/Rabbit\ Oaks.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "RabbitOaksSans";
+  src: url(Fonts/Rabbit-Oaks-3976492/Rabbit\ Oaks\ Sans.ttf) format("truetype");
+}
+@font-face {
+  font-family: "willstand";
+  src: url(Fonts/Willstand\ Sans.ttf) format("truetype");
+}
+$primary-font: "RabbitOaks";
+$secondary-font: "willstand";

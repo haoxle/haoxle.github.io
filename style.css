@@ -1,6 +1,18 @@
+@font-face {
+  font-family: "RabbitOaks";
+  src: url(Fonts/Rabbit-Oaks-3976492/Rabbit\ Oaks.ttf) format("truetype");
+}
+@font-face {
+  font-family: "RabbitOaksSans";
+  src: url(Fonts/Rabbit-Oaks-3976492/Rabbit\ Oaks\ Sans.ttf) format("truetype");
+}
+@font-face {
+  font-family: "willstand";
+  src: url(Fonts/Willstand\ Sans.ttf) format("truetype");
+}
 * {
   margin: 0;
-  font-family: arial;
+  font-family: "RabbitOaks";
   padding: 0;
 }
 
@@ -109,7 +121,8 @@ body .main__hobbies--cluster {
 body .main__hobbies--cluster .hobbies__images {
   width: 150px;
   height: 150px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border: 1px solid #4a4e69;
 }
 
@@ -129,6 +142,10 @@ body .main__hobbies--cluster .hobbies__images {
   background-color: #d5bdaf;
   padding: 20px;
 }
+.header #header__name {
+  font-family: "willstand";
+  font-size: 40px;
+}
 .header a:link,
 .header a:visited,
 .header a:hover,
@@ -137,7 +154,7 @@ body .main__hobbies--cluster .hobbies__images {
 }
 .header a {
   color: #4a4e69;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "willstand";
   font-size: 20px;
   font-weight: 600;
-}
+}/*# sourceMappingURL=style.css.map */
