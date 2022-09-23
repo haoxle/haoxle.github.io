@@ -3,24 +3,9 @@
   padding: 0;
 }
 
-body .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: #d5bdaf;
-  padding: 20px;
-}
-body .header a:link,
-body .header a:visited,
-body .header a:hover,
-body .header a:active {
-  text-decoration: none;
-}
-body .header a {
+body {
+  background-color: #f2e9e4;
   color: #4a4e69;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  font-weight: 600;
 }
 body main .main__jsd {
   display: flex;
@@ -104,22 +89,51 @@ body .main__experience--jobs {
   font-size: 15px;
   font-weight: lighter;
 }
-body .main__hobbies {
-  width: 90vw;
-  height: 40vh;
-}
-body .main__hobbies .main__hobbies__title {
+body .main__hobbies--title {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px 0 35px 0;
+  margin: 50px 0 20px 20px;
 }
-body .main__hobbies .hobbies__images {
-  width: 200px;
-  height: 200px;
+body .main__hobbies--cluster {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px 0 0 20px;
+}
+body .main__hobbies--cluster .hobbies__images {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid #4a4e69;
 }
 
-body {
-  background-color: #f2e9e4;
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #d5bdaf;
+  margin: 40px 0 0 0;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #d5bdaf;
+  padding: 20px;
+}
+.header a:link,
+.header a:visited,
+.header a:hover,
+.header a:active {
+  text-decoration: none;
+}
+.header a {
   color: #4a4e69;
-}/*# sourceMappingURL=style.css.map */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
