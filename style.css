@@ -15,22 +15,23 @@
 body {
   color: #d9d9d9;
   background-color: #0a1128;
+  max-width: 100vw;
+  width: 100vw;
 }
 body main .main__jsd {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100vw;
   height: 70vh;
 }
 body main .main__jsd h1 {
-  margin: 80px 0px 30px 50px;
+  margin: 20% 0 0 10%;
   font-family: "willstand";
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 700;
 }
 body main .main__jsd p {
-  margin: 10px 50px 20px 50px;
+  margin: 10%;
   font-size: 25px;
   font-weight: lighter;
   text-align: justify;
@@ -39,10 +40,9 @@ body .main__portfolio {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: auto;
   background-color: #248277;
-  width: 100vw;
-  margin: 70px 0 0 0;
+  margin: 30% 0 0 0;
+  height: 70vh;
 }
 body .main__portfolio #underline {
   border-bottom: 2px solid #0a1128;
@@ -52,7 +52,7 @@ body .main__portfolio #underline {
 body .main__portfolio--title {
   display: flex;
   align-items: center;
-  margin: 40px 0 0 0;
+  margin: 10% 0 0 0;
   font-family: "willstand";
   font-size: 50px;
   font-weight: 500px;
@@ -60,46 +60,44 @@ body .main__portfolio--title {
 }
 body .main__portfolio .main__portfolio__project {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
-  margin: 20px;
+  margin: 50px 0 20px 0;
 }
 body .main__portfolio .main__portfolio__project .blankbox {
   display: flex;
+  justify-content: space-around;
   background-color: #0a1128;
   width: 150px;
   height: 150px;
   margin-bottom: 10px;
 }
 body .main__portfolio .main__portfolio__project .main_eachportfolio {
-  margin: 10px 0 0 10px;
+  margin: 10px 0 0 0;
 }
 body .main__portfolio .main__portfolio__project .main_eachportfolio .button__react {
   color: #d9d9d9;
   background-color: #2a6f97;
   border-radius: 5px;
   text-decoration: none;
-  padding: 3px;
   border-style: hidden;
-  margin-top: 5px;
+  margin: 5px 0 5px 0;
 }
 body .main__portfolio .main__portfolio__project .main_eachportfolio .button__javascript {
   color: #d9d9d9;
   background-color: #22577a;
   border-radius: 5px;
   text-decoration: none;
-  padding: 3px;
   border-style: hidden;
 }
 body .main__aboutHao {
-  margin: 50px 0 50px;
+  margin: 25% 0 0 0;
 }
 body .main__aboutHao .aboutme {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px 0 45px 0;
   font-family: "willstand";
   font-size: 50px;
   font-weight: 500;
@@ -108,17 +106,19 @@ body .main__aboutHao .aboutme {
 body .main__aboutHao .aboutme__content {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 body .main__aboutHao .aboutme__content #haopic {
   max-width: 150px;
   max-height: 150px;
-  margin: 20px 10px 20px 30px;
+  margin: 10% 2% 10% 10%;
   font-size: 30px;
   border-radius: 100%;
 }
 body .main__aboutHao .aboutme__content--p {
-  margin: 10px 20px 20px 10px;
+  margin: 10% 10% 10% 2%;
   font-size: 20px;
+  text-align: justify;
 }
 body .main__experience--heading {
   display: flex;
@@ -133,16 +133,16 @@ body .main__experience--heading {
 body .main__experience #underline__experience {
   border-bottom: 2px solid #248277;
   width: 35%;
-  margin: 0px 0 20% 32%;
+  margin: 0 0 10% 32%;
 }
 body .main__experience--jobs {
+  width: calc(100vw - 40px);
   display: flex;
   justify-content: space-between;
   background-color: #2a6f97;
   font-size: 20px;
-  font-weight: lighter;
   padding: 20px;
-  border: 2px solid #2a6f97;
+  font-weight: lighter;
   border-top: 1px solid #0a1128;
   border-bottom: 1px solid #0a1128;
   color: #d9d9d9;
@@ -160,14 +160,14 @@ body .main__hobbies--title {
 body .main__hobbies #underline {
   border-bottom: 2px solid #248277;
   width: 30%;
-  margin: 0px 0 20% 35%;
+  margin: 0 0 10% 35%;
 }
 body .main__hobbies--cluster {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 30px 0 0 20px;
+  margin: 30px 0 0 0;
 }
 body .main__hobbies--cluster .hobbies__images {
   width: 150px;
@@ -183,8 +183,8 @@ body .main__hobbies--cluster .hobbies__images {
   justify-content: space-between;
   background-color: #248277;
   color: #d9d9d9;
-  margin: 15vh 0 0 0;
-  padding: 30px;
+  margin: 30% 0 0 0;
+  padding: 20px;
   font-size: 25px;
 }
 .footer a:link,
@@ -198,29 +198,29 @@ body .main__hobbies--cluster .hobbies__images {
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 20vh;
 }
 .header #header__name {
   color: #d9d9d9;
   font-family: "willstand";
   font-size: 80px;
   font-weight: 900;
-  padding: 10%;
-  margin-left: 10px;
+}
+.header #header__buttons {
+  display: none;
+}
+.header .header__burger a {
+  color: #d9d9d9;
+  font-family: "willstand";
+  font-size: 0;
+  font-weight: 200;
 }
 .header a:link,
 .header a:visited,
 .header a:hover,
 .header a:active {
   text-decoration: none;
-}
-.header a {
-  color: #d9d9d9;
-  font-family: "willstand";
-  font-size: 0;
-  font-weight: 200;
-}
-.header #navlinks {
-  margin: 0 10vw 0 0;
-  padding: 50% 100% 0 0;
 }/*# sourceMappingURL=style.css.map */
