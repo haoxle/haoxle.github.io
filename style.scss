@@ -61,8 +61,6 @@ body {
       }
 
       .main_eachportfolio {
-        margin: 10px 0 0 0;
-
         .button__react {
           color: $color-secondary;
           background-color: $color-quaternary;
@@ -82,7 +80,6 @@ body {
     }
   }
   .main__aboutHao {
-    margin: 25% 0 0 0;
     .aboutme {
       display: flex;
       justify-content: center;
@@ -135,7 +132,6 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 80px 0 0 0;
       font-weight: 500;
       font-family: $secondary-font;
       font-variant: small-caps;
@@ -167,7 +163,6 @@ body {
   justify-content: space-between;
   background-color: $color-tertiary;
   color: $color-secondary;
-  margin: 30% 0 0 0;
   a:link,
   a:visited,
   a:hover,
@@ -241,15 +236,19 @@ body {
         width: 150px;
         height: 150px;
       }
-      .button__react {
-        padding: 3px;
-      }
-      .button__javascript {
-        padding: 3px;
+      .main_eachportfolio {
+        margin: 0;
+        .button__react {
+          padding: 3px;
+        }
+        .button__javascript {
+          padding: 3px;
+        }
       }
     }
   }
   .main__aboutHao {
+    margin: 25% 0 0 0;
     .aboutme {
       font-size: 50px;
     }
@@ -278,6 +277,7 @@ body {
     }
   }
   .main__hobbies {
+    margin-top: 10vh;
     &--title {
       font-size: 50px;
     }
@@ -290,6 +290,7 @@ body {
     }
   }
   .footer {
+    margin: 25% 0 0 0;
     padding: 20px;
     font-size: 25px;
   }
@@ -341,19 +342,22 @@ body {
         height: 300px;
         margin-bottom: 25px;
       }
-
-      .button__react {
-        padding: 5px;
-        font-size: 25px;
-      }
-      .button__javascript {
-        padding: 5px;
-        font-size: 25px;
-        // margin-bottom: 25px;
+      .main_eachportfolio {
+        margin: 1%;
+        .button__react {
+          padding: 5px;
+          font-size: 25px;
+        }
+        .button__javascript {
+          padding: 5px;
+          font-size: 25px;
+          // margin-bottom: 25px;
+        }
       }
     }
   }
   .main__aboutHao {
+    margin: 25% 0 0 0;
     .aboutme {
       font-size: 90px;
     }
@@ -385,6 +389,7 @@ body {
     }
   }
   .main__hobbies {
+    margin-top: 15vh;
     &--title {
       font-size: 90px;
     }
@@ -397,6 +402,7 @@ body {
     }
   }
   .footer {
+    margin: 25% 0 0 0;
     padding: 50px;
     font-size: 40px;
   }
@@ -426,19 +432,19 @@ body {
     }
   }
   .main__jsd {
-    height: 35vh;
+    height: 30vh;
     margin-top: 5%;
     margin: 5% 0 25% 0;
     #jsd__name {
-      font-size: 7vh;
+      font-size: 8vh;
     }
     #jsd__p {
-      font-size: 3vh;
+      font-size: 4vh;
       margin-top: 2%;
     }
   }
   .main__portfolio {
-    height: 90vh;
+    height: 100vh;
     #underline {
       width: 25vh;
     }
@@ -449,64 +455,70 @@ body {
     .main__portfolio__project {
       font-size: 30px;
       .blankbox {
-        width: 20vw;
-        height: 40vh;
+        width: 15vw;
+        height: 25vh;
       }
-      .button__react {
-        padding: 5px;
-        font-size: 25px;
-      }
-      .button__javascript {
-        padding: 5px;
-        font-size: 25px;
-        margin-bottom: 25px;
+      .main_eachportfolio {
+        margin: 1%;
+        .button__react {
+          padding: 5px;
+          font-size: 25px;
+        }
+        .button__javascript {
+          padding: 5px;
+          font-size: 25px;
+          margin-bottom: 25px;
+        }
       }
     }
   }
   .main__aboutHao {
+    margin: 15% 0 0 0;
     .aboutme {
-      font-size: 90px;
+      font-size: 10vh;
     }
     .aboutme__content {
       #haopic {
-        max-width: 300px;
-        max-height: 300px;
+        max-width: 30vw;
+        max-height: 30vh;
       }
       &--p {
-        font-size: 30px;
+        font-size: 3rem;
       }
     }
   }
   .main__experience {
     &--heading {
-      font-size: 90px;
+      font-size: 10vh;
     }
     #underline__experience {
       width: 35%;
     }
 
     &--jobs {
-      width: calc(100vw - 40px);
-      font-size: 25px;
+      width: calc(100vw - 60px);
+      font-size: 2rem;
       padding: 30px;
     }
     img {
-      height: 40px;
+      height: 5vh;
     }
   }
   .main__hobbies {
+    margin-top: 30vh;
     &--title {
-      font-size: 90px;
+      font-size: 10vh;
     }
     &--cluster {
       margin: 30px 0 0 0;
       .hobbies__images {
-        width: 250px;
-        height: 250px;
+        width: 15vw;
+        height: 25vh;
       }
     }
   }
   .footer {
+    margin: 15% 0 0 0;
     padding: 50px;
     font-size: 40px;
   }

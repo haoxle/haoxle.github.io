@@ -60,9 +60,6 @@ body .main__portfolio .main__portfolio__project .blankbox {
   background-color: #0a1128;
   margin-bottom: 10px;
 }
-body .main__portfolio .main__portfolio__project .main_eachportfolio {
-  margin: 10px 0 0 0;
-}
 body .main__portfolio .main__portfolio__project .main_eachportfolio .button__react {
   color: #d9d9d9;
   background-color: #2a6f97;
@@ -77,9 +74,6 @@ body .main__portfolio .main__portfolio__project .main_eachportfolio .button__jav
   border-radius: 5px;
   text-decoration: none;
   border-style: hidden;
-}
-body .main__aboutHao {
-  margin: 25% 0 0 0;
 }
 body .main__aboutHao .aboutme {
   display: flex;
@@ -128,7 +122,6 @@ body .main__hobbies--title {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 80px 0 0 0;
   font-weight: 500;
   font-family: "willstand";
   font-variant: small-caps;
@@ -157,7 +150,6 @@ body .main__hobbies--cluster .hobbies__images {
   justify-content: space-between;
   background-color: #248277;
   color: #d9d9d9;
-  margin: 30% 0 0 0;
 }
 .footer a:link,
 .footer a:visited,
@@ -227,11 +219,17 @@ body .main__hobbies--cluster .hobbies__images {
     width: 150px;
     height: 150px;
   }
-  .main__portfolio .main__portfolio__project .button__react {
+  .main__portfolio .main__portfolio__project .main_eachportfolio {
+    margin: 0;
+  }
+  .main__portfolio .main__portfolio__project .main_eachportfolio .button__react {
     padding: 3px;
   }
-  .main__portfolio .main__portfolio__project .button__javascript {
+  .main__portfolio .main__portfolio__project .main_eachportfolio .button__javascript {
     padding: 3px;
+  }
+  .main__aboutHao {
+    margin: 25% 0 0 0;
   }
   .main__aboutHao .aboutme {
     font-size: 50px;
@@ -254,6 +252,9 @@ body .main__hobbies--cluster .hobbies__images {
     font-size: 18px;
     padding: 20px;
   }
+  .main__hobbies {
+    margin-top: 10vh;
+  }
   .main__hobbies--title {
     font-size: 50px;
   }
@@ -265,6 +266,7 @@ body .main__hobbies--cluster .hobbies__images {
     height: 150px;
   }
   .footer {
+    margin: 25% 0 0 0;
     padding: 20px;
     font-size: 25px;
   }
@@ -316,13 +318,19 @@ body .main__hobbies--cluster .hobbies__images {
     height: 300px;
     margin-bottom: 25px;
   }
-  .main__portfolio .main__portfolio__project .button__react {
+  .main__portfolio .main__portfolio__project .main_eachportfolio {
+    margin: 1%;
+  }
+  .main__portfolio .main__portfolio__project .main_eachportfolio .button__react {
     padding: 5px;
     font-size: 25px;
   }
-  .main__portfolio .main__portfolio__project .button__javascript {
+  .main__portfolio .main__portfolio__project .main_eachportfolio .button__javascript {
     padding: 5px;
     font-size: 25px;
+  }
+  .main__aboutHao {
+    margin: 25% 0 0 0;
   }
   .main__aboutHao .aboutme {
     font-size: 90px;
@@ -348,6 +356,9 @@ body .main__hobbies--cluster .hobbies__images {
   .main__experience img {
     height: 40px;
   }
+  .main__hobbies {
+    margin-top: 15vh;
+  }
   .main__hobbies--title {
     font-size: 90px;
   }
@@ -359,6 +370,7 @@ body .main__hobbies--cluster .hobbies__images {
     height: 250px;
   }
   .footer {
+    margin: 25% 0 0 0;
     padding: 50px;
     font-size: 40px;
   }
@@ -387,19 +399,19 @@ body .main__hobbies--cluster .hobbies__images {
     display: none;
   }
   .main__jsd {
-    height: 35vh;
+    height: 30vh;
     margin-top: 5%;
     margin: 5% 0 25% 0;
   }
   .main__jsd #jsd__name {
-    font-size: 7vh;
+    font-size: 8vh;
   }
   .main__jsd #jsd__p {
-    font-size: 3vh;
+    font-size: 4vh;
     margin-top: 2%;
   }
   .main__portfolio {
-    height: 90vh;
+    height: 100vh;
   }
   .main__portfolio #underline {
     width: 25vh;
@@ -412,53 +424,63 @@ body .main__hobbies--cluster .hobbies__images {
     font-size: 30px;
   }
   .main__portfolio .main__portfolio__project .blankbox {
-    width: 20vw;
-    height: 40vh;
+    width: 15vw;
+    height: 25vh;
   }
-  .main__portfolio .main__portfolio__project .button__react {
+  .main__portfolio .main__portfolio__project .main_eachportfolio {
+    margin: 1%;
+  }
+  .main__portfolio .main__portfolio__project .main_eachportfolio .button__react {
     padding: 5px;
     font-size: 25px;
   }
-  .main__portfolio .main__portfolio__project .button__javascript {
+  .main__portfolio .main__portfolio__project .main_eachportfolio .button__javascript {
     padding: 5px;
     font-size: 25px;
     margin-bottom: 25px;
   }
+  .main__aboutHao {
+    margin: 15% 0 0 0;
+  }
   .main__aboutHao .aboutme {
-    font-size: 90px;
+    font-size: 10vh;
   }
   .main__aboutHao .aboutme__content #haopic {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 30vw;
+    max-height: 30vh;
   }
   .main__aboutHao .aboutme__content--p {
-    font-size: 30px;
+    font-size: 3rem;
   }
   .main__experience--heading {
-    font-size: 90px;
+    font-size: 10vh;
   }
   .main__experience #underline__experience {
     width: 35%;
   }
   .main__experience--jobs {
-    width: calc(100vw - 40px);
-    font-size: 25px;
+    width: calc(100vw - 60px);
+    font-size: 2rem;
     padding: 30px;
   }
   .main__experience img {
-    height: 40px;
+    height: 5vh;
+  }
+  .main__hobbies {
+    margin-top: 30vh;
   }
   .main__hobbies--title {
-    font-size: 90px;
+    font-size: 10vh;
   }
   .main__hobbies--cluster {
     margin: 30px 0 0 0;
   }
   .main__hobbies--cluster .hobbies__images {
-    width: 250px;
-    height: 250px;
+    width: 15vw;
+    height: 25vh;
   }
   .footer {
+    margin: 15% 0 0 0;
     padding: 50px;
     font-size: 40px;
   }
