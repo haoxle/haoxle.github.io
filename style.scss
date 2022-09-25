@@ -6,6 +6,7 @@
   margin: 0;
   font-family: $primary-font;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -410,6 +411,7 @@ body {
 
 @media screen and (min-width: 821px) and (max-width: 3456px) {
   .header {
+    width: 100%;
     height: 20vh;
     margin: 2% 0 0 0;
     #header__name {
@@ -496,7 +498,7 @@ body {
     }
 
     &--jobs {
-      width: calc(100vw - 60px);
+      width: 100%;
       font-size: 3vh;
       padding: 30px;
     }
