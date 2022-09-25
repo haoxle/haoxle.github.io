@@ -411,32 +411,32 @@ body .main__hobbies--cluster .hobbies__images {
     margin-top: 2%;
   }
   .main__portfolio {
-    height: 100vh;
+    height: 85vh;
   }
   .main__portfolio #underline {
-    width: 25vh;
+    width: 15vw;
   }
   .main__portfolio--title {
-    font-size: 10vh;
-    margin-top: 5%;
+    font-size: 7vh;
+    margin-top: 3%;
   }
   .main__portfolio .main__portfolio__project {
-    font-size: 30px;
+    font-size: 2vh;
   }
   .main__portfolio .main__portfolio__project .blankbox {
-    width: 15vw;
-    height: 25vh;
+    width: 20vw;
+    height: 20vh;
   }
   .main__portfolio .main__portfolio__project .main_eachportfolio {
     margin: 1%;
   }
   .main__portfolio .main__portfolio__project .main_eachportfolio .button__react {
     padding: 5px;
-    font-size: 25px;
+    font-size: 2vh;
   }
   .main__portfolio .main__portfolio__project .main_eachportfolio .button__javascript {
     padding: 5px;
-    font-size: 25px;
+    font-size: 2vh;
     margin-bottom: 25px;
   }
   .main__aboutHao {
@@ -450,7 +450,7 @@ body .main__hobbies--cluster .hobbies__images {
     max-height: 30vh;
   }
   .main__aboutHao .aboutme__content--p {
-    font-size: 3rem;
+    font-size: 4vh;
   }
   .main__experience--heading {
     font-size: 10vh;
@@ -460,7 +460,7 @@ body .main__hobbies--cluster .hobbies__images {
   }
   .main__experience--jobs {
     width: calc(100vw - 60px);
-    font-size: 2rem;
+    font-size: 3vh;
     padding: 30px;
   }
   .main__experience img {
@@ -476,12 +476,12 @@ body .main__hobbies--cluster .hobbies__images {
     margin: 30px 0 0 0;
   }
   .main__hobbies--cluster .hobbies__images {
-    width: 15vw;
-    height: 25vh;
+    width: 40rem;
+    height: 40rem;
   }
   .footer {
     margin: 15% 0 0 0;
     padding: 50px;
-    font-size: 40px;
+    font-size: 5vh;
   }
 }/*# sourceMappingURL=style.css.map */

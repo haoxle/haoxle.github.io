@@ -444,29 +444,29 @@ body {
     }
   }
   .main__portfolio {
-    height: 100vh;
+    height: 85vh;
     #underline {
-      width: 25vh;
+      width: 15vw;
     }
     &--title {
-      font-size: 10vh;
-      margin-top: 5%;
+      font-size: 7vh;
+      margin-top: 3%;
     }
     .main__portfolio__project {
-      font-size: 30px;
+      font-size: 2vh;
       .blankbox {
-        width: 15vw;
-        height: 25vh;
+        width: 20vw;
+        height: 20vh;
       }
       .main_eachportfolio {
         margin: 1%;
         .button__react {
           padding: 5px;
-          font-size: 25px;
+          font-size: 2vh;
         }
         .button__javascript {
           padding: 5px;
-          font-size: 25px;
+          font-size: 2vh;
           margin-bottom: 25px;
         }
       }
@@ -483,7 +483,7 @@ body {
         max-height: 30vh;
       }
       &--p {
-        font-size: 3rem;
+        font-size: 4vh;
       }
     }
   }
@@ -497,7 +497,7 @@ body {
 
     &--jobs {
       width: calc(100vw - 60px);
-      font-size: 2rem;
+      font-size: 3vh;
       padding: 30px;
     }
     img {
@@ -512,14 +512,14 @@ body {
     &--cluster {
       margin: 30px 0 0 0;
       .hobbies__images {
-        width: 15vw;
-        height: 25vh;
+        width: 40rem;
+        height: 40rem;
       }
     }
   }
   .footer {
     margin: 15% 0 0 0;
     padding: 50px;
-    font-size: 40px;
+    font-size: 5vh;
   }
 }
