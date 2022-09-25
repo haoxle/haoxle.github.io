@@ -36,16 +36,13 @@ body .main__portfolio {
   flex-direction: column;
   align-items: center;
   background-color: #248277;
-  margin: 30% 0 0 0;
 }
 body .main__portfolio #underline {
   border-bottom: 2px solid #0a1128;
-  margin: 0;
 }
 body .main__portfolio--title {
   display: flex;
   align-items: center;
-  margin: 10% 0 0 0;
   font-family: "willstand";
   font-weight: 500px;
   font-variant: small-caps;
@@ -191,8 +188,6 @@ body .main__hobbies--cluster .hobbies__images {
 .header .header__burger a {
   color: #d9d9d9;
   font-family: "willstand";
-  font-size: 0;
-  font-weight: 200;
 }
 .header a:link,
 .header a:visited,
@@ -205,8 +200,12 @@ body .main__hobbies--cluster .hobbies__images {
   #header__buttons {
     display: none;
   }
+  #header__words {
+    display: none;
+  }
   .main__jsd {
     height: 70vh;
+    margin: 5% 0 25% 0;
   }
   .main__jsd #jsd__name {
     font-size: 60px;
@@ -222,6 +221,7 @@ body .main__hobbies--cluster .hobbies__images {
   }
   .main__portfolio--title {
     font-size: 50px;
+    margin-top: 10%;
   }
   .main__portfolio .main__portfolio__project .blankbox {
     width: 150px;
@@ -285,8 +285,12 @@ body .main__hobbies--cluster .hobbies__images {
   .header #header__burger {
     display: none;
   }
+  .header #header__words {
+    display: none;
+  }
   .main__jsd {
     height: 40vh;
+    margin: 5% 0 25% 0;
   }
   .main__jsd #jsd__name {
     font-size: 80px;
@@ -302,6 +306,7 @@ body .main__hobbies--cluster .hobbies__images {
   }
   .main__portfolio--title {
     font-size: 90px;
+    margin-top: 10%;
   }
   .main__portfolio .main__portfolio__project {
     font-size: 30px;
@@ -336,7 +341,7 @@ body .main__hobbies--cluster .hobbies__images {
     width: 35%;
   }
   .main__experience--jobs {
-    width: calc(100vw - 40px);
+    width: calc(100vw - 60px);
     font-size: 25px;
     padding: 30px;
   }
@@ -358,44 +363,57 @@ body .main__hobbies--cluster .hobbies__images {
     font-size: 40px;
   }
 }
-@media screen and (min-width: 821px) and (max-width: 60em) {
+@media screen and (min-width: 821px) and (max-width: 3456px) {
+  .header {
+    height: 20vh;
+    margin: 2% 0 0 0;
+  }
   .header #header__name {
-    font-size: 50vh;
+    font-size: 15vh;
+  }
+  .header a {
+    color: #d9d9d9;
+    font-family: "chelsy";
+    padding: 2vh;
+  }
+  .header #header__words {
+    display: block;
+    font-size: 5vh;
   }
   .header #header__buttons {
-    display: block;
-  }
-  .header #header__buttons a {
-    padding: 20px;
+    display: none;
   }
   .header #header__burger {
     display: none;
   }
   .main__jsd {
-    height: 40vh;
+    height: 35vh;
+    margin-top: 5%;
+    margin: 5% 0 25% 0;
   }
   .main__jsd #jsd__name {
-    font-size: 80px;
+    font-size: 7vh;
   }
   .main__jsd #jsd__p {
-    font-size: 35px;
+    font-size: 3vh;
+    margin-top: 2%;
   }
   .main__portfolio {
     height: 90vh;
   }
   .main__portfolio #underline {
-    width: 15vh;
+    width: 25vh;
   }
   .main__portfolio--title {
-    font-size: 90px;
+    font-size: 10vh;
+    margin-top: 5%;
   }
   .main__portfolio .main__portfolio__project {
     font-size: 30px;
   }
   .main__portfolio .main__portfolio__project .blankbox {
-    width: 300px;
-    height: 300px;
-    margin-bottom: 25px;
+    width: 20vw;
+    height: 40vh;
   }
   .main__portfolio .main__portfolio__project .button__react {
     padding: 5px;
@@ -404,6 +422,7 @@ body .main__hobbies--cluster .hobbies__images {
   .main__portfolio .main__portfolio__project .button__javascript {
     padding: 5px;
     font-size: 25px;
+    margin-bottom: 25px;
   }
   .main__aboutHao .aboutme {
     font-size: 90px;
