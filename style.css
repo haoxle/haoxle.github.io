@@ -130,14 +130,13 @@ body .main__hobbies--title {
 body .main__hobbies #underline {
   border-bottom: 2px solid #248277;
   width: 30%;
-  margin: 0 0 10% 35%;
+  margin: 0 0 0 35%;
 }
 body .main__hobbies--cluster {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 30px 0 0 0;
 }
 body .main__hobbies--cluster .hobbies__images {
   -o-object-fit: cover;
@@ -382,7 +381,7 @@ body .main__hobbies--cluster .hobbies__images {
     margin: 2% 0 0 0;
   }
   .header #header__name {
-    font-size: 15vh;
+    font-size: 12vh;
   }
   .header a {
     color: #d9d9d9;
@@ -404,10 +403,10 @@ body .main__hobbies--cluster .hobbies__images {
     margin: 5% 0 15% 0;
   }
   .main__jsd #jsd__name {
-    font-size: 8vh;
+    font-size: 5vh;
   }
   .main__jsd #jsd__p {
-    font-size: 4vh;
+    font-size: 3vh;
     margin-top: 2%;
   }
   .main__portfolio {
@@ -421,7 +420,7 @@ body .main__hobbies--cluster .hobbies__images {
     margin-top: 3%;
   }
   .main__portfolio .main__portfolio__project {
-    font-size: 2vh;
+    font-size: 2.5vh;
   }
   .main__portfolio .main__portfolio__project .blankbox {
     width: 20vw;
@@ -440,20 +439,20 @@ body .main__hobbies--cluster .hobbies__images {
     margin-bottom: 25px;
   }
   .main__aboutHao {
-    margin: 7% 0 0 0;
+    margin: 10% 0 0 0;
   }
   .main__aboutHao .aboutme {
-    font-size: 10vh;
+    font-size: 7vh;
   }
   .main__aboutHao .aboutme__content #haopic {
     max-width: 30vw;
     max-height: 30vh;
   }
   .main__aboutHao .aboutme__content--p {
-    font-size: 4vh;
+    font-size: 3vh;
   }
   .main__experience--heading {
-    font-size: 10vh;
+    font-size: 7vh;
     margin-top: 5%;
   }
   .main__experience #underline__experience {
@@ -461,24 +460,22 @@ body .main__hobbies--cluster .hobbies__images {
   }
   .main__experience--jobs {
     width: 100%;
-    font-size: 3vh;
-    padding: 30px;
+    font-size: 2.5vh;
+    padding: 1%;
   }
   .main__experience img {
     height: 5vh;
   }
-  .main__hobbies {
+  .main__hobbies--title {
+    font-size: 7vh;
     margin-top: 10%;
   }
-  .main__hobbies--title {
-    font-size: 10vh;
-  }
   .main__hobbies--cluster {
-    margin: 30px 0 0 0;
+    margin-top: 3%;
   }
   .main__hobbies--cluster .hobbies__images {
-    width: 20rem;
-    height: 20rem;
+    width: 14rem;
+    height: 14rem;
   }
   .footer {
     margin: 15% 0 0 0;

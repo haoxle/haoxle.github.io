@@ -140,14 +140,13 @@ body {
     #underline {
       border-bottom: 2px solid $color-tertiary;
       width: 30%;
-      margin: 0 0 10% 35%;
+      margin: 0 0 0 35%;
     }
     &--cluster {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
-      margin: 30px 0 0 0;
 
       .hobbies__images {
         object-fit: cover;
@@ -416,7 +415,7 @@ body {
     height: 20vh;
     margin: 2% 0 0 0;
     #header__name {
-      font-size: 15vh;
+      font-size: 12vh;
     }
     a {
       color: $color-secondary;
@@ -438,10 +437,10 @@ body {
     height: 15vh;
     margin: 5% 0 15% 0;
     #jsd__name {
-      font-size: 8vh;
+      font-size: 5vh;
     }
     #jsd__p {
-      font-size: 4vh;
+      font-size: 3vh;
       margin-top: 2%;
     }
   }
@@ -455,7 +454,7 @@ body {
       margin-top: 3%;
     }
     .main__portfolio__project {
-      font-size: 2vh;
+      font-size: 2.5vh;
       .blankbox {
         width: 20vw;
         height: 20vh;
@@ -475,9 +474,9 @@ body {
     }
   }
   .main__aboutHao {
-    margin: 7% 0 0 0;
+    margin: 10% 0 0 0;
     .aboutme {
-      font-size: 10vh;
+      font-size: 7vh;
     }
     .aboutme__content {
       #haopic {
@@ -485,13 +484,13 @@ body {
         max-height: 30vh;
       }
       &--p {
-        font-size: 4vh;
+        font-size: 3vh;
       }
     }
   }
   .main__experience {
     &--heading {
-      font-size: 10vh;
+      font-size: 7vh;
       margin-top: 5%;
     }
     #underline__experience {
@@ -500,23 +499,23 @@ body {
 
     &--jobs {
       width: 100%;
-      font-size: 3vh;
-      padding: 30px;
+      font-size: 2.5vh;
+      padding: 1%;
     }
     img {
       height: 5vh;
     }
   }
   .main__hobbies {
-    margin-top: 10%;
     &--title {
-      font-size: 10vh;
+      font-size: 7vh;
+      margin-top: 10%;
     }
     &--cluster {
-      margin: 30px 0 0 0;
+      margin-top: 3%;
       .hobbies__images {
-        width: 20rem;
-        height: 20rem;
+        width: 14rem;
+        height: 14rem;
       }
     }
   }
