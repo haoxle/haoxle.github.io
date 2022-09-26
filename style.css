@@ -25,7 +25,7 @@ body main .main__jsd {
 body main .main__jsd h1 {
   margin: 20% 0 0 10%;
   font-family: "willstand";
-  font-weight: 700;
+  font-weight: 700px;
 }
 body main .main__jsd p {
   margin: 10%;
@@ -90,7 +90,7 @@ body .main__aboutHao .aboutme__content {
   align-items: center;
 }
 body .main__aboutHao .aboutme__content #haopic {
-  margin: 10% 2% 10% 10%;
+  margin: 5% 2% 5% 10%;
   border-radius: 100%;
 }
 body .main__aboutHao .aboutme__content--p {
@@ -101,14 +101,14 @@ body .main__experience--heading {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 80px 0 0 0;
   font-weight: 500;
   font-family: "willstand";
   font-variant: small-caps;
+  margin-top: 5%;
 }
 body .main__experience #underline__experience {
   border-bottom: 2px solid #248277;
-  margin: 0 0 10% 32%;
+  margin: 0 0 3% 32%;
 }
 body .main__experience--jobs {
   display: flex;
@@ -227,7 +227,7 @@ body .main__hobbies--cluster .hobbies__images {
     padding: 3px;
   }
   .main__aboutHao {
-    margin: 25% 0 0 0;
+    margin: 10% 0 0 0;
   }
   .main__aboutHao .aboutme {
     font-size: 50px;
@@ -246,7 +246,7 @@ body .main__hobbies--cluster .hobbies__images {
     width: 35%;
   }
   .main__experience--jobs {
-    width: 100%;
+    width: 100vw;
     font-size: 18px;
     padding: 20px;
   }
@@ -274,7 +274,7 @@ body .main__hobbies--cluster .hobbies__images {
     height: 20vh;
   }
   .header #header__name {
-    font-size: 100px;
+    font-size: 10vh;
   }
   .header #header__buttons {
     display: block;
@@ -293,84 +293,86 @@ body .main__hobbies--cluster .hobbies__images {
     margin: 5% 0 25% 0;
   }
   .main__jsd #jsd__name {
-    font-size: 80px;
+    font-size: 5vh;
   }
   .main__jsd #jsd__p {
-    font-size: 35px;
+    font-size: 3vh;
   }
   .main__portfolio {
-    height: 90vh;
+    height: 50%;
   }
   .main__portfolio #underline {
     width: 15vh;
   }
   .main__portfolio--title {
-    font-size: 90px;
+    font-size: 5vh;
     margin-top: 10%;
   }
   .main__portfolio .main__portfolio__project {
-    font-size: 30px;
+    font-size: 2vh;
   }
   .main__portfolio .main__portfolio__project .blankbox {
-    width: 300px;
-    height: 300px;
+    width: 20vw;
+    height: 20vh;
     margin-bottom: 25px;
   }
   .main__portfolio .main__portfolio__project .main_eachportfolio {
     margin: 1%;
+    font-size: 2.5vh;
   }
   .main__portfolio .main__portfolio__project .main_eachportfolio .button__react {
     padding: 5px;
-    font-size: 25px;
+    font-size: 2vh;
   }
   .main__portfolio .main__portfolio__project .main_eachportfolio .button__javascript {
     padding: 5px;
-    font-size: 25px;
+    font-size: 2vh;
   }
   .main__aboutHao {
-    margin: 25% 0 0 0;
+    margin-top: 15%;
   }
   .main__aboutHao .aboutme {
-    font-size: 90px;
+    font-size: 5vh;
   }
   .main__aboutHao .aboutme__content #haopic {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 25%;
+    max-height: 25%;
   }
   .main__aboutHao .aboutme__content--p {
-    font-size: 30px;
+    font-size: 120%;
   }
   .main__experience--heading {
-    font-size: 90px;
+    margin-top: 5%;
+    font-size: 5vh;
   }
   .main__experience #underline__experience {
     width: 35%;
   }
   .main__experience--jobs {
-    width: calc(100vw - 60px);
-    font-size: 25px;
-    padding: 30px;
+    width: 100%;
+    font-size: 2vh;
+    padding: 2%;
   }
   .main__experience img {
     height: 40px;
   }
   .main__hobbies {
-    margin-top: 15vh;
+    margin-top: 10%;
   }
   .main__hobbies--title {
-    font-size: 90px;
+    font-size: 5vh;
   }
   .main__hobbies--cluster {
-    margin: 30px 0 0 0;
+    margin: 2% 0 0 0;
   }
   .main__hobbies--cluster .hobbies__images {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
   }
   .footer {
-    margin: 25% 0 0 0;
-    padding: 50px;
-    font-size: 40px;
+    margin: 15% 0 0 0;
+    padding: 3%;
+    font-size: 4vh;
   }
 }
 @media screen and (min-width: 821px) and (max-width: 3456px) {
@@ -398,9 +400,8 @@ body .main__hobbies--cluster .hobbies__images {
     display: none;
   }
   .main__jsd {
-    height: 30vh;
-    margin-top: 5%;
-    margin: 5% 0 25% 0;
+    height: 15vh;
+    margin: 5% 0 15% 0;
   }
   .main__jsd #jsd__name {
     font-size: 8vh;
@@ -410,7 +411,7 @@ body .main__hobbies--cluster .hobbies__images {
     margin-top: 2%;
   }
   .main__portfolio {
-    height: 85vh;
+    height: 70%;
   }
   .main__portfolio #underline {
     width: 15vw;
@@ -439,7 +440,7 @@ body .main__hobbies--cluster .hobbies__images {
     margin-bottom: 25px;
   }
   .main__aboutHao {
-    margin: 15% 0 0 0;
+    margin: 7% 0 0 0;
   }
   .main__aboutHao .aboutme {
     font-size: 10vh;
@@ -453,6 +454,7 @@ body .main__hobbies--cluster .hobbies__images {
   }
   .main__experience--heading {
     font-size: 10vh;
+    margin-top: 5%;
   }
   .main__experience #underline__experience {
     width: 35%;
@@ -466,7 +468,7 @@ body .main__hobbies--cluster .hobbies__images {
     height: 5vh;
   }
   .main__hobbies {
-    margin-top: 30vh;
+    margin-top: 10%;
   }
   .main__hobbies--title {
     font-size: 10vh;
