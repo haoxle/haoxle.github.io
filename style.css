@@ -435,8 +435,8 @@ body .main__hobbies--cluster .hobbies__images {
     font-size: 2.5vh;
   }
   .main__portfolio .main__portfolio__project .blankbox {
-    width: 20vw;
-    height: 20vh;
+    width: 25vh;
+    height: 25vh;
   }
   .main__portfolio .main__portfolio__project .main_eachportfolio {
     margin: 1%;
