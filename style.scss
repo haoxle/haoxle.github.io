@@ -224,7 +224,6 @@ body {
     }
   }
   .main__portfolio {
-    height: 70vh;
     #underline {
       width: 15vh;
     }
@@ -272,7 +271,7 @@ body {
     }
 
     &--jobs {
-      width: calc(100vw - 40px);
+      width: 100%;
       font-size: 18px;
       padding: 20px;
     }

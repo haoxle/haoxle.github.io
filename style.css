@@ -206,9 +206,6 @@ body .main__hobbies--cluster .hobbies__images {
   .main__jsd #jsd__p {
     font-size: 25px;
   }
-  .main__portfolio {
-    height: 70vh;
-  }
   .main__portfolio #underline {
     width: 15vh;
   }
@@ -249,7 +246,7 @@ body .main__hobbies--cluster .hobbies__images {
     width: 35%;
   }
   .main__experience--jobs {
-    width: calc(100vw - 40px);
+    width: 100%;
     font-size: 18px;
     padding: 20px;
   }
