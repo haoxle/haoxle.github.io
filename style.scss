@@ -210,10 +210,23 @@ body {
   }
   #header__words {
     display: none;
+    position: absolute;
+    margin-top: 70%;
+    width: 100%;
+    a {
+      background-color: $color-senary;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 4%;
+      font-size: 2vh;
+      color: $color-primary;
+    }
   }
+
   .main__jsd {
     height: 70vh;
-    margin: 5% 0 25% 0;
+    margin: 0 0 25% 0;
 
     #jsd__name {
       font-size: 60px;
@@ -409,7 +422,7 @@ body {
   }
 }
 
-@media screen and (min-width: 821px) and (max-width: 3456px) {
+@media screen and (min-width: 821px) and (max-width: 7000px) {
   .header {
     width: 100%;
     height: 20vh;
@@ -514,8 +527,8 @@ body {
     &--cluster {
       margin-top: 3%;
       .hobbies__images {
-        width: 14rem;
-        height: 14rem;
+        width: 30vh;
+        height: 30vh;
       }
     }
   }

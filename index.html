@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="function.js"></script>
   </head>
 
   <body>
@@ -14,7 +15,10 @@
         <a href="#" id="header__name">Hao Le</a>
 
         <div id="header__burger">
-          <a href="#"><img src="images/menu.png" alt="navigation button" /></a>
+          <a href="javascript:void(0)" onclick="myFunction()"
+            ><img src="images/menu.png" alt="navigation button" />
+            <i class="fa fa-bars"></i
+          ></a>
         </div>
         <div id="header__words">
           <a href="#aboutHao">About Me</a>
