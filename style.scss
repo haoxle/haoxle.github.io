@@ -537,4 +537,30 @@ body {
     padding: 30px;
     font-size: 3vh;
   }
+
+  .hoverwrap {
+    position: relative;
+  }
+
+  .hoverwrap img {
+    width: 100%;
+  }
+  .hovercap {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: $color-primary;
+    color: $color-secondary;
+    visibility: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 2vh;
+  }
+  .hoverwrap:hover .hovercap {
+    visibility: visible;
+    opacity: 1;
+  }
 }

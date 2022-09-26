@@ -494,4 +494,28 @@ body .main__hobbies--cluster .hobbies__images {
     padding: 30px;
     font-size: 3vh;
   }
+  .hoverwrap {
+    position: relative;
+  }
+  .hoverwrap img {
+    width: 100%;
+  }
+  .hovercap {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0a1128;
+    color: #d9d9d9;
+    visibility: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 2vh;
+  }
+  .hoverwrap:hover .hovercap {
+    visibility: visible;
+    opacity: 1;
+  }
 }/*# sourceMappingURL=style.css.map */
